@@ -3467,6 +3467,42 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
+  - first: {x: -4, y: 22, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: -3, y: 22, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 3, y: 22, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 4, y: 22, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
   - first: {x: 5, y: 22, z: 0}
     second:
       serializedVersion: 2
@@ -3645,7 +3681,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: a9ef1de6c4d687e458c53bb159d13a34, type: 2}
   - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: c89bcab828870f948be9333196b9c7b8, type: 2}
-  - m_RefCount: 7
+  - m_RefCount: 11
     m_Data: {fileID: 11400000, guid: 76706e54d4be3d848ac1732fd6d3f583, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: c50990e85c69ef84483790887468d329, type: 2}
@@ -3690,7 +3726,7 @@ Tilemap:
   - m_RefCount: 7
     m_Data: {fileID: 7195625764090854150, guid: d6a3f31fdb9ce804db13e0a7cd3d43ae,
       type: 3}
-  - m_RefCount: 7
+  - m_RefCount: 11
     m_Data: {fileID: 4811947262307543279, guid: b8bff2c417f251d47a9f70abd89a1d8e,
       type: 3}
   - m_RefCount: 2
@@ -3726,7 +3762,7 @@ Tilemap:
     m_Data: {fileID: 5559689600840818946, guid: b8bff2c417f251d47a9f70abd89a1d8e,
       type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 303
+  - m_RefCount: 307
     m_Data:
       e00: 1
       e01: 0
@@ -3745,7 +3781,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 303
+  - m_RefCount: 307
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -3780,7 +3816,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 196507568}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3d0fbaa5384c37641b9a088c4efb51f4, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -4012,7 +4048,7 @@ PrefabInstance:
     - target: {fileID: 3195276312782689990, guid: 274a638208c014149b6bae59af881579,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.5
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3195276312782689990, guid: 274a638208c014149b6bae59af881579,
         type: 3}
@@ -4154,7 +4190,7 @@ PrefabInstance:
     - target: {fileID: 3195276312782689990, guid: 274a638208c014149b6bae59af881579,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.5
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 3195276312782689990, guid: 274a638208c014149b6bae59af881579,
         type: 3}
@@ -4343,7 +4379,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 1145817ff96bb40668c6ddb3a07fdb82, type: 2}
+    m_Font: {fileID: 12800000, guid: c6a367dd30b474e989979ad113b37e3e, type: 2}
     m_FontSize: 0
     m_FontStyle: 0
     m_BestFit: 0
@@ -4869,7 +4905,7 @@ PrefabInstance:
     - target: {fileID: 3195276312782689990, guid: 274a638208c014149b6bae59af881579,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.5
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 3195276312782689990, guid: 274a638208c014149b6bae59af881579,
         type: 3}
@@ -4938,7 +4974,7 @@ PrefabInstance:
     - target: {fileID: 3195276312782689990, guid: 274a638208c014149b6bae59af881579,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.5
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 3195276312782689990, guid: 274a638208c014149b6bae59af881579,
         type: 3}
@@ -5327,7 +5363,7 @@ PrefabInstance:
     - target: {fileID: 3195276312782689990, guid: 274a638208c014149b6bae59af881579,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.5
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3195276312782689990, guid: 274a638208c014149b6bae59af881579,
         type: 3}
@@ -13591,7 +13627,7 @@ PrefabInstance:
     - target: {fileID: 3195276312782689990, guid: 274a638208c014149b6bae59af881579,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.5
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3195276312782689990, guid: 274a638208c014149b6bae59af881579,
         type: 3}
@@ -43571,7 +43607,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.0000005
+  orthographic size: 4.796875
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -43610,17 +43646,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2140807607}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 820dff5ef6cfac54cafac9e301a77a6e, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxCameraHalfWidthEnabled: 0
-  maxCameraHalfHeightEnabled: 0
-  maxCameraHalfWidth: 3
-  maxCameraHalfHeight: 2
-  targetDimension: 1
-  targetCameraHalfWidth: 7
-  targetCameraHalfHeight: 5
-  pixelPerfect: 0
-  pixelSnapMode: 2
-  assetsPixelsPerUnit: 16
-  showHUD: 0
+  m_AssetsPPU: 16
+  m_RefResolutionX: 320
+  m_RefResolutionY: 180
+  m_UpscaleRT: 0
+  m_PixelSnapping: 1
+  m_CropFrameX: 1
+  m_CropFrameY: 1
+  m_StretchFill: 0
